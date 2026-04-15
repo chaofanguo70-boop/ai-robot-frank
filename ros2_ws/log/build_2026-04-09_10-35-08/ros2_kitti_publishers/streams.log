@@ -1,0 +1,157 @@
+[0.008s] Invoking command in '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zhaozhenkai/ros2_ws/src/ros2_kitti_publishers -DCMAKE_INSTALL_PREFIX=/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers
+[0.028s] [33mCMake Warning (dev) at CMakeLists.txt:1 (project):
+[0.028s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.028s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.028s]   both commands.
+[0.028s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.029s] [0m
+[0.120s] -- The C compiler identification is GNU 13.3.0
+[0.259s] -- The CXX compiler identification is GNU 13.3.0
+[0.345s] -- Detecting C compiler ABI info
+[0.426s] -- Detecting C compiler ABI info - done
+[0.432s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.432s] -- Detecting C compile features
+[0.432s] -- Detecting C compile features - done
+[0.449s] -- Detecting CXX compiler ABI info
+[0.529s] -- Detecting CXX compiler ABI info - done
+[0.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.536s] -- Detecting CXX compile features
+[0.536s] -- Detecting CXX compile features - done
+[0.539s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.606s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.607s] -- Found Threads: TRUE  
+[0.612s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.701s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.777s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.841s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.851s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.865s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.880s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.939s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.942s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.994s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.027s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.054s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.132s] -- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.167s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.191s] -- Found pluginlib: 5.4.4 (/opt/ros/jazzy/share/pluginlib/cmake)
+[1.203s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.215s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.228s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.246s] -- Found shape_msgs: 5.3.6 (/opt/ros/jazzy/share/shape_msgs/cmake)
+[1.260s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[1.264s] -- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.279s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.280s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.280s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.337s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.358s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[1.402s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.402s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.402s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.402s]   cmake_policy command to set the policy and suppress this warning.
+[1.402s] 
+[1.402s]   CMake variable FLANN_ROOT is set to:
+[1.402s] 
+[1.402s]     /usr
+[1.402s] 
+[1.402s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.402s]   .cmake module might still use it.
+[1.402s] Call Stack (most recent call first):
+[1.402s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.402s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.402s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.402s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.403s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.403s]   CMakeLists.txt:32 (find_package)
+[1.403s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.403s] [0m
+[1.404s] -- Found flann version 1.9.2
+[1.613s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.613s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[3.656s] -- Checking for module 'libusb-1.0'
+[3.664s] --   Found libusb-1.0, version 1.0.27
+[3.692s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.693s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.748s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.763s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[3.854s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[3.933s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[5.424s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.428s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.918s] -- Found Qhull version 8.0.2
+[8.365s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.820s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.821s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.821s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.822s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.823s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.823s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.824s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[9.824s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[9.825s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.825s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.826s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.827s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.827s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.828s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.829s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.829s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.830s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.830s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.831s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.832s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.832s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[9.832s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[9.833s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[9.833s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.834s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.851s] -- Found OpenCV: /usr (found version "4.6.0") 
+[9.856s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system 
+[9.856s] [33mCMake Warning (dev) at CMakeLists.txt:37 (find_package):
+[9.857s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[9.857s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[9.857s]   command to set the policy and suppress this warning.
+[9.857s] 
+[9.857s]   CMake variable PCL_ROOT is set to:
+[9.857s] 
+[9.857s]     /usr
+[9.857s] 
+[9.857s]   For compatibility, CMake is ignoring the variable.
+[9.857s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.857s] [0m
+[9.933s] -- Configuring done (9.9s)
+[10.002s] -- Generating done (0.1s)
+[10.008s] -- Build files have been written to: /home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers
+[10.021s] Invoked command in '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zhaozhenkai/ros2_ws/src/ros2_kitti_publishers -DCMAKE_INSTALL_PREFIX=/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers
+[10.022s] Invoking command in '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers -- -j20 -l20
+[10.066s] [ 50%] Built target ros2_kitti_publishers
+[10.089s] [100%] Built target kitti_publishers
+[10.095s] Invoked command in '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers -- -j20 -l20
+[10.101s] Invoking command in '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers
+[10.105s] -- Install configuration: ""
+[10.105s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/include/
+[10.105s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers
+[10.106s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers/visibility.h
+[10.106s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers/WGS84toCartesian.hpp
+[10.106s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers/kitti_publishers_node.hpp
+[10.106s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/launch
+[10.106s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/launch/README.md
+[10.106s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/lib/libros2_kitti_publishers.so
+[10.106s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/lib/ros2_kitti_publishers/kitti_publishers
+[10.106s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ament_index/resource_index/package_run_dependencies/ros2_kitti_publishers
+[10.106s] -- Installing: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ament_index/resource_index/parent_prefix_path/ros2_kitti_publishers
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/ament_prefix_path.sh
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/ament_prefix_path.dsv
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/path.sh
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/path.dsv
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.bash
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.sh
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.zsh
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.dsv
+[10.107s] -- Installing: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/package.dsv
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ament_index/resource_index/packages/ros2_kitti_publishers
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/cmake/ros2_kitti_publishersConfig.cmake
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/cmake/ros2_kitti_publishersConfig-version.cmake
+[10.107s] -- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/package.xml
+[10.108s] Invoked command in '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers

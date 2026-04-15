@@ -1,0 +1,66 @@
+[33mCMake Warning (dev) at CMakeLists.txt:1 (project):
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:37 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/zhaozhenkai/ros2_ws/src/ros2_kitti_publishers/include/ros2_kitti_publishers/kitti_publishers_node.hpp:19[m[K,
+                 from [01m[K/home/zhaozhenkai/ros2_ws/src/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:3[m[K:
+[01m[K/home/zhaozhenkai/ros2_ws/src/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:[m[K In member function ‘[01m[Kvoid KittiPublishersNode::[01;32m[Kon_timer_callback[m[K()[m[K’:
+[01m[K/home/zhaozhenkai/ros2_ws/src/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:60:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   60 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"OxTs size: '%i'"[m[K, [32m[Koxts_parsed_array.size()[m[K);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                              [32m[K|[m[K
+      |                                                                              [32m[Kstd::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/zhaozhenkai/ros2_ws/src/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:60:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   60 |     RCLCPP_INFO(this->get_logger(), "OxTs size: '[01;36m[K%i[m[K'", oxts_parsed_array.size());
+      |                                                  [01;36m[K~^[m[K
+      |                                                   [01;36m[K|[m[K
+      |                                                   [01;36m[Kint[m[K
+      |                                                  [32m[K%li[m[K
+[01m[K/home/zhaozhenkai/ros2_ws/src/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:[m[K In member function ‘[01m[Kstd::string KittiPublishersNode::[01;32m[Kget_path[m[K(PublisherType)[m[K’:
+[01m[K/home/zhaozhenkai/ros2_ws/src/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:120:35:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[KKittiPublishersNode::PublisherType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  120 |   RCLCPP_INFO(this->get_logger(), [01;35m[K"get_path: '%i'"[m[K, [32m[Kpublisher_type[m[K);
+      |                                   [01;35m[K^~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~[m[K
+      |                                                     [32m[K|[m[K
+      |                                                     [32m[KKittiPublishersNode::PublisherType[m[K
+[01m[K/home/zhaozhenkai/ros2_ws/src/ros2_kitti_publishers/src/node/kitti_publishers_node.cpp:120:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  120 |   RCLCPP_INFO(this->get_logger(), "get_path: '[01;36m[K%i[m[K'", publisher_type);
+      |                                               [01;36m[K~^[m[K
+      |                                                [01;36m[K|[m[K
+      |                                                [01;36m[Kint[m[K

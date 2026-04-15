@@ -1,0 +1,340 @@
+[0.000000] (-) TimerEvent: {}
+[0.000838] (ros2_kitti_publishers) JobQueued: {'identifier': 'ros2_kitti_publishers', 'dependencies': OrderedDict()}
+[0.000877] (ros2_kitti_publishers) JobStarted: {'identifier': 'ros2_kitti_publishers'}
+[0.005425] (ros2_kitti_publishers) JobProgress: {'identifier': 'ros2_kitti_publishers', 'progress': 'cmake'}
+[0.005800] (ros2_kitti_publishers) Command: {'cmd': ['/usr/bin/cmake', '/home/zhaozhenkai/ros2_ws/src/ros2_kitti_publishers', '-DCMAKE_INSTALL_PREFIX=/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers'], 'cwd': '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zhaozhenkai', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zhaozhenkai', 'OLDPWD': '/home/zhaozhenkai/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zhaozhenkai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhaozhenkai', 'NAME': 'PC19', 'WSL_INTEROP': '/run/WSL/375_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/zhaozhenkai/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/Chinese/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Chinese/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Chinese/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.014094] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:1 (project):\n'}
+[0.014252] (ros2_kitti_publishers) StderrLine: {'line': b'  cmake_minimum_required() should be called prior to this top-level project()\n'}
+[0.014294] (ros2_kitti_publishers) StderrLine: {'line': b'  call.  Please see the cmake-commands(7) manual for usage documentation of\n'}
+[0.014328] (ros2_kitti_publishers) StderrLine: {'line': b'  both commands.\n'}
+[0.014360] (ros2_kitti_publishers) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.014396] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[0m\n'}
+[0.073384] (ros2_kitti_publishers) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099914] (-) TimerEvent: {}
+[0.200283] (-) TimerEvent: {}
+[0.273100] (ros2_kitti_publishers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.300899] (-) TimerEvent: {}
+[0.401483] (-) TimerEvent: {}
+[0.427229] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501604] (-) TimerEvent: {}
+[0.545590] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.552046] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.552237] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.552459] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.579418] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601799] (-) TimerEvent: {}
+[0.697272] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.702004] (-) TimerEvent: {}
+[0.703885] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.704142] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.704442] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.705542] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.783307] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.783884] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.785530] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.802162] (-) TimerEvent: {}
+[0.893181] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.902410] (-) TimerEvent: {}
+[0.963619] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.002962] (-) TimerEvent: {}
+[1.038224] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.047157] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.056838] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.067610] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.103126] (-) TimerEvent: {}
+[1.118361] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.119808] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.175771] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.203299] (-) TimerEvent: {}
+[1.228164] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.271127] (ros2_kitti_publishers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.303493] (-) TimerEvent: {}
+[1.350284] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[1.381842] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[1.403779] (-) TimerEvent: {}
+[1.405567] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found pluginlib: 5.4.4 (/opt/ros/jazzy/share/pluginlib/cmake)\n'}
+[1.413563] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.424799] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.435954] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.452867] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found shape_msgs: 5.3.6 (/opt/ros/jazzy/share/shape_msgs/cmake)\n'}
+[1.465317] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.468512] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.483956] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.485369] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.485683] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.504022] (-) TimerEvent: {}
+[1.538368] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[1.559646] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[1.599815] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[1.599954] (ros2_kitti_publishers) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[1.599990] (ros2_kitti_publishers) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[1.600023] (ros2_kitti_publishers) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[1.600057] (ros2_kitti_publishers) StderrLine: {'line': b'\n'}
+[1.600088] (ros2_kitti_publishers) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[1.600118] (ros2_kitti_publishers) StderrLine: {'line': b'\n'}
+[1.600147] (ros2_kitti_publishers) StderrLine: {'line': b'    /usr\n'}
+[1.600192] (ros2_kitti_publishers) StderrLine: {'line': b'\n'}
+[1.600222] (ros2_kitti_publishers) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[1.600252] (ros2_kitti_publishers) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[1.600281] (ros2_kitti_publishers) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.600310] (ros2_kitti_publishers) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[1.600342] (ros2_kitti_publishers) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[1.600371] (ros2_kitti_publishers) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[1.600400] (ros2_kitti_publishers) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.600432] (ros2_kitti_publishers) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[1.600529] (ros2_kitti_publishers) StderrLine: {'line': b'  CMakeLists.txt:32 (find_package)\n'}
+[1.600666] (ros2_kitti_publishers) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.600765] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[0m\n'}
+[1.600916] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[1.604181] (-) TimerEvent: {}
+[1.704531] (-) TimerEvent: {}
+[1.805437] (-) TimerEvent: {}
+[1.878103] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[1.878254] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[1.905594] (-) TimerEvent: {}
+[2.005992] (-) TimerEvent: {}
+[2.106514] (-) TimerEvent: {}
+[2.206878] (-) TimerEvent: {}
+[2.307414] (-) TimerEvent: {}
+[2.407985] (-) TimerEvent: {}
+[2.508339] (-) TimerEvent: {}
+[2.608734] (-) TimerEvent: {}
+[2.709110] (-) TimerEvent: {}
+[2.809541] (-) TimerEvent: {}
+[2.909999] (-) TimerEvent: {}
+[3.010453] (-) TimerEvent: {}
+[3.111018] (-) TimerEvent: {}
+[3.211669] (-) TimerEvent: {}
+[3.312111] (-) TimerEvent: {}
+[3.412653] (-) TimerEvent: {}
+[3.513032] (-) TimerEvent: {}
+[3.613399] (-) TimerEvent: {}
+[3.713723] (-) TimerEvent: {}
+[3.814322] (-) TimerEvent: {}
+[3.914648] (-) TimerEvent: {}
+[4.015007] (-) TimerEvent: {}
+[4.116756] (-) TimerEvent: {}
+[4.217347] (-) TimerEvent: {}
+[4.317685] (-) TimerEvent: {}
+[4.417985] (-) TimerEvent: {}
+[4.518244] (-) TimerEvent: {}
+[4.618618] (-) TimerEvent: {}
+[4.719071] (-) TimerEvent: {}
+[4.819649] (-) TimerEvent: {}
+[4.920153] (-) TimerEvent: {}
+[5.020520] (-) TimerEvent: {}
+[5.120828] (-) TimerEvent: {}
+[5.221096] (-) TimerEvent: {}
+[5.321808] (-) TimerEvent: {}
+[5.422337] (-) TimerEvent: {}
+[5.523064] (-) TimerEvent: {}
+[5.623656] (-) TimerEvent: {}
+[5.697083] (ros2_kitti_publishers) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[5.706122] (ros2_kitti_publishers) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[5.723836] (-) TimerEvent: {}
+[5.758748] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[5.759478] (ros2_kitti_publishers) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.824015] (-) TimerEvent: {}
+[5.849921] (ros2_kitti_publishers) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.880974] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[5.924404] (-) TimerEvent: {}
+[6.024742] (-) TimerEvent: {}
+[6.059981] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[6.124956] (-) TimerEvent: {}
+[6.207578] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[6.225080] (-) TimerEvent: {}
+[6.325373] (-) TimerEvent: {}
+[6.425748] (-) TimerEvent: {}
+[6.526147] (-) TimerEvent: {}
+[6.626422] (-) TimerEvent: {}
+[6.726746] (-) TimerEvent: {}
+[6.827368] (-) TimerEvent: {}
+[6.927672] (-) TimerEvent: {}
+[7.027982] (-) TimerEvent: {}
+[7.128296] (-) TimerEvent: {}
+[7.228643] (-) TimerEvent: {}
+[7.329181] (-) TimerEvent: {}
+[7.429725] (-) TimerEvent: {}
+[7.530318] (-) TimerEvent: {}
+[7.630641] (-) TimerEvent: {}
+[7.730950] (-) TimerEvent: {}
+[7.831301] (-) TimerEvent: {}
+[7.931713] (-) TimerEvent: {}
+[8.032220] (-) TimerEvent: {}
+[8.132753] (-) TimerEvent: {}
+[8.233054] (-) TimerEvent: {}
+[8.333527] (-) TimerEvent: {}
+[8.434033] (-) TimerEvent: {}
+[8.534468] (-) TimerEvent: {}
+[8.634875] (-) TimerEvent: {}
+[8.735305] (-) TimerEvent: {}
+[8.770144] (ros2_kitti_publishers) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.774513] (ros2_kitti_publishers) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[8.835770] (-) TimerEvent: {}
+[8.936426] (-) TimerEvent: {}
+[9.036723] (-) TimerEvent: {}
+[9.136987] (-) TimerEvent: {}
+[9.237286] (-) TimerEvent: {}
+[9.337628] (-) TimerEvent: {}
+[9.438112] (-) TimerEvent: {}
+[9.538431] (-) TimerEvent: {}
+[9.639042] (-) TimerEvent: {}
+[9.739484] (-) TimerEvent: {}
+[9.840170] (-) TimerEvent: {}
+[9.940605] (-) TimerEvent: {}
+[10.040926] (-) TimerEvent: {}
+[10.141402] (-) TimerEvent: {}
+[10.241906] (-) TimerEvent: {}
+[10.342458] (-) TimerEvent: {}
+[10.443067] (-) TimerEvent: {}
+[10.543410] (-) TimerEvent: {}
+[10.643728] (-) TimerEvent: {}
+[10.744064] (-) TimerEvent: {}
+[10.844460] (-) TimerEvent: {}
+[10.944934] (-) TimerEvent: {}
+[11.045503] (-) TimerEvent: {}
+[11.146110] (-) TimerEvent: {}
+[11.246796] (-) TimerEvent: {}
+[11.347142] (-) TimerEvent: {}
+[11.446449] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[11.447269] (-) TimerEvent: {}
+[11.547542] (-) TimerEvent: {}
+[11.648003] (-) TimerEvent: {}
+[11.748574] (-) TimerEvent: {}
+[11.849217] (-) TimerEvent: {}
+[11.949569] (-) TimerEvent: {}
+[12.049912] (-) TimerEvent: {}
+[12.150235] (-) TimerEvent: {}
+[12.250588] (-) TimerEvent: {}
+[12.351061] (-) TimerEvent: {}
+[12.451381] (-) TimerEvent: {}
+[12.551968] (-) TimerEvent: {}
+[12.652989] (-) TimerEvent: {}
+[12.753639] (-) TimerEvent: {}
+[12.854050] (-) TimerEvent: {}
+[12.954462] (-) TimerEvent: {}
+[13.054745] (-) TimerEvent: {}
+[13.155043] (-) TimerEvent: {}
+[13.255474] (-) TimerEvent: {}
+[13.355789] (-) TimerEvent: {}
+[13.456271] (-) TimerEvent: {}
+[13.556683] (-) TimerEvent: {}
+[13.656938] (-) TimerEvent: {}
+[13.757350] (-) TimerEvent: {}
+[13.857864] (-) TimerEvent: {}
+[13.958443] (-) TimerEvent: {}
+[14.058964] (-) TimerEvent: {}
+[14.159308] (-) TimerEvent: {}
+[14.207439] (ros2_kitti_publishers) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[14.259467] (-) TimerEvent: {}
+[14.359822] (-) TimerEvent: {}
+[14.460285] (-) TimerEvent: {}
+[14.560761] (-) TimerEvent: {}
+[14.661289] (-) TimerEvent: {}
+[14.761922] (-) TimerEvent: {}
+[14.862346] (-) TimerEvent: {}
+[14.962996] (-) TimerEvent: {}
+[15.063437] (-) TimerEvent: {}
+[15.163798] (-) TimerEvent: {}
+[15.264150] (-) TimerEvent: {}
+[15.364478] (-) TimerEvent: {}
+[15.464760] (-) TimerEvent: {}
+[15.565111] (-) TimerEvent: {}
+[15.665554] (-) TimerEvent: {}
+[15.765947] (-) TimerEvent: {}
+[15.866500] (-) TimerEvent: {}
+[15.966945] (-) TimerEvent: {}
+[16.067493] (-) TimerEvent: {}
+[16.168089] (-) TimerEvent: {}
+[16.268566] (-) TimerEvent: {}
+[16.368918] (-) TimerEvent: {}
+[16.469339] (-) TimerEvent: {}
+[16.569661] (-) TimerEvent: {}
+[16.670050] (-) TimerEvent: {}
+[16.770468] (-) TimerEvent: {}
+[16.870801] (-) TimerEvent: {}
+[16.971556] (-) TimerEvent: {}
+[17.071984] (-) TimerEvent: {}
+[17.172767] (-) TimerEvent: {}
+[17.273688] (-) TimerEvent: {}
+[17.311715] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[17.312330] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[17.312966] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[17.313568] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[17.314187] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[17.315019] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[17.315325] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[17.315668] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[17.316493] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[17.317084] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[17.317788] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[17.318419] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[17.319124] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[17.319792] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[17.320476] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[17.321195] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[17.321847] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[17.322512] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[17.323247] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[17.323815] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[17.325728] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[17.326300] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[17.326630] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[17.327358] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[17.328158] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[17.336465] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[17.340849] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system \n'}
+[17.341367] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:37 (find_package):\n'}
+[17.341432] (ros2_kitti_publishers) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[17.341468] (ros2_kitti_publishers) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[17.341502] (ros2_kitti_publishers) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[17.341536] (ros2_kitti_publishers) StderrLine: {'line': b'\n'}
+[17.341567] (ros2_kitti_publishers) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[17.341603] (ros2_kitti_publishers) StderrLine: {'line': b'\n'}
+[17.341649] (ros2_kitti_publishers) StderrLine: {'line': b'    /usr\n'}
+[17.341681] (ros2_kitti_publishers) StderrLine: {'line': b'\n'}
+[17.341712] (ros2_kitti_publishers) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[17.341747] (ros2_kitti_publishers) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[17.341778] (ros2_kitti_publishers) StderrLine: {'line': b'\x1b[0m\n'}
+[17.373883] (-) TimerEvent: {}
+[17.432902] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Configuring done (17.4s)\n'}
+[17.474125] (-) TimerEvent: {}
+[17.484904] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[17.494597] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Build files have been written to: /home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers\n'}
+[17.510739] (ros2_kitti_publishers) CommandEnded: {'returncode': 0}
+[17.511321] (ros2_kitti_publishers) JobProgress: {'identifier': 'ros2_kitti_publishers', 'progress': 'build'}
+[17.511938] (ros2_kitti_publishers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers', '--', '-j20', '-l20'], 'cwd': '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zhaozhenkai', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zhaozhenkai', 'OLDPWD': '/home/zhaozhenkai/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zhaozhenkai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhaozhenkai', 'NAME': 'PC19', 'WSL_INTEROP': '/run/WSL/375_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/zhaozhenkai/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/Chinese/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Chinese/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Chinese/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[17.563042] (ros2_kitti_publishers) StdoutLine: {'line': b'[ 50%] Built target ros2_kitti_publishers\n'}
+[17.574462] (-) TimerEvent: {}
+[17.589856] (ros2_kitti_publishers) StdoutLine: {'line': b'[100%] Built target kitti_publishers\n'}
+[17.597244] (ros2_kitti_publishers) CommandEnded: {'returncode': 0}
+[17.597747] (ros2_kitti_publishers) JobProgress: {'identifier': 'ros2_kitti_publishers', 'progress': 'install'}
+[17.604366] (ros2_kitti_publishers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers'], 'cwd': '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zhaozhenkai', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zhaozhenkai', 'OLDPWD': '/home/zhaozhenkai/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zhaozhenkai/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhaozhenkai', 'NAME': 'PC19', 'WSL_INTEROP': '/run/WSL/375_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/zhaozhenkai/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/Chinese/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Chinese/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Chinese/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/zhaozhenkai/ros2_ws/build/ros2_kitti_publishers', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[17.609408] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.609554] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/include/\n'}
+[17.609713] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers\n'}
+[17.609995] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers/visibility.h\n'}
+[17.610101] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers/WGS84toCartesian.hpp\n'}
+[17.610195] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/include//ros2_kitti_publishers/kitti_publishers_node.hpp\n'}
+[17.610288] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/launch\n'}
+[17.610450] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/launch/README.md\n'}
+[17.610488] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/lib/libros2_kitti_publishers.so\n'}
+[17.610521] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/lib/ros2_kitti_publishers/kitti_publishers\n'}
+[17.610554] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ament_index/resource_index/package_run_dependencies/ros2_kitti_publishers\n'}
+[17.610587] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ament_index/resource_index/parent_prefix_path/ros2_kitti_publishers\n'}
+[17.610620] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/ament_prefix_path.sh\n'}
+[17.610652] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/ament_prefix_path.dsv\n'}
+[17.610684] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/path.sh\n'}
+[17.610718] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/path.dsv\n'}
+[17.610748] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.bash\n'}
+[17.610778] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.sh\n'}
+[17.610808] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.zsh\n'}
+[17.610841] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.dsv\n'}
+[17.610870] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Installing: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/package.dsv\n'}
+[17.610900] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ament_index/resource_index/packages/ros2_kitti_publishers\n'}
+[17.610931] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/cmake/ros2_kitti_publishersConfig.cmake\n'}
+[17.610959] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/cmake/ros2_kitti_publishersConfig-version.cmake\n'}
+[17.610988] (ros2_kitti_publishers) StdoutLine: {'line': b'-- Up-to-date: /home/zhaozhenkai/ros2_ws/install/ros2_kitti_publishers/share/ros2_kitti_publishers/package.xml\n'}
+[17.611532] (ros2_kitti_publishers) CommandEnded: {'returncode': 0}
+[17.625165] (ros2_kitti_publishers) JobEnded: {'identifier': 'ros2_kitti_publishers', 'rc': 0}
+[17.625905] (-) EventReactorShutdown: {}
