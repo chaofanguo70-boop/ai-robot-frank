@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>乌龟遥控器</title>
+  <style>
+    body { background:#1a1a2e; display:flex; flex-direction:column;
+           align-items:center; justify-content:center; height:100vh; margin:0; }
+    #status { color:#0f0; font-size:18px; margin-bottom:30px; font-family:sans-serif; }
+    .row { display:flex; gap:15px; margin:8px; }
+    button { width:90px; height:90px; font-size:2.2em; border-radius:20px;
+             border:none; background:#16213e; color:white;
+             box-shadow:0 4px 15px rgba(0,0,0,0.5); cursor:pointer; }
+    button:active { background:#0f3460; transform:scale(0.95); }
+  </style>
+</head>
+<body>
+  <div id="status">⏳ 连接中...</div>
+  <div class="row"><button id="btn-f">⬆️</button></div>
+  <div class="row">
+    <button id="btn-l">⬅️</button>
+    <button id="btn-r">➡️</button>
+  </div>
+  <div class="row"><button id="btn-b">⬇️</button></div>
+
+  <script>
+    const IP = location.hostname; // 自动用当前IP
+    const ws = new WebSocket(`ws://${IP}:8765`);
+    const status = document.getElementById('status');
+    ws.onopen  = () => status.innerText = '✅ 已连接，可以控制乌龟！';
+    ws.onerror = () => status.innerText = '❌ 连接失败，检查IP';
+
+    const btns = {
+      'btn-f': 'forward', 'btn-b': 'backward',
+      'btn-l': 'left',    'btn-r': 'right'
+    };
+    Object.entries(btns).forEach(([id, cmd]) => {
+      const btn = document.getElementById(id);
+      btn.addEventListener('pointerdown', () => ws.readyState===1 && ws.send(cmd));
+    });
+  </script>
+</body>
+</html>
